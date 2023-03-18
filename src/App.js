@@ -10,6 +10,8 @@ import Favorites from './components/Favorites/Favorites.jsx';
 
 
 function App () {
+
+  
   const [users, setUsers] = React.useState([]);
   
   function onSearch(id) {
