@@ -1,0 +1,80 @@
+.nombre {
+    font-size:2.0em;
+    text-align: center;
+    margin-top: 0.10em;
+    margin-bottom: 0.10em;
+    color: rgb(234, 225, 233)
+  }
+.especie {
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 0.10em;
+    margin-bottom: 0.10em;
+    color: rgb(240, 234, 239)
+  }
+.divCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 15vw;
+    height: 45vh;
+    background-image:url('https://www.xtrafondos.com/thumbs/vertical/1_3820.jpg');
+    opacity:0.5;
+    float: left;
+    margin-left: 100px;
+    margin-right: 1px;
+    margin-bottom: 10px;
+    border-radius:50px;
+    border:3px solid #e9e0e6; 
+    transition: 0.50s;
+    position: relative;
+    left: 3%;
+    top: 30%;
+    
+  }
+  .divCard:hover{
+    width: 15vw;
+    height: 47vh;
+    transition: 0.50s;
+    opacity:1.0;
+  }
+  .imagen {
+    width:155px;
+    height:155px;
+    border-radius:150px;
+    border:3px solid #7e0755;
+  }
+  .button {
+    text-decoration:none;
+    font-weight: 600;
+    font-size: 20px;
+    color:#fefefe;
+    padding-top:9px;
+    padding-bottom:9px;
+    padding-left:15px;
+    padding-right:15px;
+    background-color:#a10909;
+    border-color: #d8d8d8;
+    border-width: 3px;
+    border-style: solid;
+    border-radius:35px;
+    transition:0.25s;
+    }
+  .button:hover {
+  background-color:#780e0e;
+  padding-top:11px;
+  padding-bottom:11px;
+  padding-left:17px;
+  padding-right:17px;
+  }
+  .divButtonClose{
+    background-color:#3f0909;
+    position: relative;
+    right: -82px;
+    top: 0px;
+    border-radius:35px;
+    
+  }
+
+

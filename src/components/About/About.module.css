@@ -1,0 +1,14 @@
+.pAbout{
+    font-size:2.0em;
+    text-align: center;
+    margin-top: 0.10em;
+    margin-bottom: 0.10em;
+    color: rgb(234, 225, 233)
+}
+.divAbout{
+    position: relative;
+    top: 35%;
+    left: 15%;
+    width: 70%;
+
+}
